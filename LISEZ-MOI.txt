@@ -1,0 +1,25 @@
+ATHLETIX — pack PWA hors ligne
+
+Contenu :
+- index.html : application
+- manifest.webmanifest : paramètres d'installation
+- sw.js : cache de l'application pour le lancement hors ligne
+- icon.svg : icône
+
+Installation :
+1. Héberger tous les fichiers du dossier sur un site HTTPS (ou localhost pour les tests).
+2. Ouvrir l'adresse dans Chrome sur Android.
+3. Menu ⋮ > Installer l'application (ou Ajouter à l'écran d'accueil).
+4. Ouvrir ATHLETIX une première fois avec Internet pour mettre l'application en cache.
+5. Ensuite, l'interface reste ouvrable hors ligne.
+
+Données :
+- Les mesures et séances sont enregistrées dans le stockage local du navigateur (localStorage).
+- Elles ne sont pas synchronisées entre appareils.
+- Exporter régulièrement une sauvegarde JSON depuis l'onglet Données.
+- Effacer les données du navigateur peut supprimer les données locales.
+
+Limites :
+- Le service worker et l'installation PWA nécessitent HTTPS (ou localhost).
+- La synchronisation Health Connect / Fitbit / RENPHO, le cloud multi-utilisateurs et l'IA ne sont pas inclus dans cette version.
+- L'import des programmes Excel est déjà intégré à l'application.

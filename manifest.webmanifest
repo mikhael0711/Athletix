@@ -1,0 +1,19 @@
+{
+  "name": "ATHLETIX — Suivi sportif",
+  "short_name": "ATHLETIX",
+  "description": "Suivi de musculation, running et composition corporelle.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#090e1b",
+  "theme_color": "#0b1020",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
